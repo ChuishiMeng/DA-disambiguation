@@ -14,7 +14,7 @@ DA-disambiguation/
 ├── TASKS.md           # 任务清单
 ├── code/              # 代码实现
 ├── data/              # 数据文件
-├── literature/        # 原始文献
+├── review/        # 原始文献
 └── review/            # 文献笔记
 ```
 
