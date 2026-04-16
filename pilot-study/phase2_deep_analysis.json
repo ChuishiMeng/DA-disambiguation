@@ -1,0 +1,173 @@
+{
+  "timestamp": "2026-04-15",
+  "difficulty_stats": {
+    "challenging": {
+      "total": 50,
+      "cross_layer": 49,
+      "cross_layer_pct": 98.0,
+      "user_layer": {
+        "指代省略": 46,
+        "时间模糊": 2,
+        "角色视角": 1
+      },
+      "business_layer": {
+        "概念歧义": 6,
+        "逻辑歧义": 24,
+        "维度约定": 46,
+        "规则歧义": 2
+      },
+      "data_layer": {
+        "路径歧义": 49,
+        "复杂映射": 39
+      }
+    },
+    "moderate": {
+      "total": 50,
+      "cross_layer": 48,
+      "cross_layer_pct": 96.0,
+      "user_layer": {
+        "指代省略": 47,
+        "时间模糊": 1
+      },
+      "business_layer": {
+        "维度约定": 39,
+        "概念歧义": 12,
+        "逻辑歧义": 13,
+        "规则歧义": 3
+      },
+      "data_layer": {
+        "路径歧义": 42,
+        "复杂映射": 18
+      }
+    }
+  },
+  "coupling_patterns": {
+    "U:1|B:3|D:2": 6,
+    "U:2|B:4|D:2": 1,
+    "U:1|B:2|D:2": 21,
+    "U:1|B:2|D:1": 4,
+    "U:1|B:1|D:2": 21,
+    "U:2|B:1|D:2": 1,
+    "U:1|B:1|D:1": 22,
+    "U:0|B:1|D:1": 1,
+    "U:0|B:1|D:2": 2,
+    "U:1|B:0|D:2": 3,
+    "U:0|B:2|D:2": 1,
+    "U:2|B:2|D:2": 1,
+    "U:1|B:4|D:1": 1,
+    "U:0|B:2|D:1": 1,
+    "U:1|B:0|D:1": 4,
+    "U:2|B:2|D:1": 1,
+    "U:1|B:2|D:0": 4,
+    "U:1|B:1|D:0": 2
+  },
+  "complex_cases": [
+    {
+      "id": 1481,
+      "difficulty": "challenging",
+      "question": "What is the difference in the annual average consumption of the customers with the least amount of consumption paid in CZK for 2013 between SME and LAM, LAM and KAM, and KAM and SME?",
+      "ambiguity": {
+        "user_layer": [
+          "指代省略",
+          "时间模糊"
+        ],
+        "business_layer": [
+          "概念歧义",
+          "逻辑歧义",
+          "规则歧义",
+          "维度约定"
+        ],
+        "data_layer": [
+          "路径歧义",
+          "复杂映射"
+        ],
+        "cross_layer": true
+      },
+      "has_ambiguity": true
+    },
+    {
+      "id": 1476,
+      "difficulty": "challenging",
+      "question": "What was the difference in gas consumption between CZK-paying customers and EUR-paying customers in 2012?",
+      "ambiguity": {
+        "user_layer": [
+          "指代省略"
+        ],
+        "business_layer": [
+          "概念歧义",
+          "逻辑歧义",
+          "维度约定"
+        ],
+        "data_layer": [
+          "路径歧义",
+          "复杂映射"
+        ],
+        "cross_layer": true
+      },
+      "has_ambiguity": true
+    },
+    {
+      "id": 1482,
+      "difficulty": "challenging",
+      "question": "Which of the three segments—SME, LAM and KAM—has the biggest and lowest percentage increases in consumption paid in EUR between 2012 and 2013?",
+      "ambiguity": {
+        "user_layer": [
+          "指代省略"
+        ],
+        "business_layer": [
+          "概念歧义",
+          "逻辑歧义",
+          "维度约定"
+        ],
+        "data_layer": [
+          "路径歧义",
+          "复杂映射"
+        ],
+        "cross_layer": true
+      },
+      "has_ambiguity": true
+    },
+    {
+      "id": 1526,
+      "difficulty": "challenging",
+      "question": "For the customer who paid 634.8 in 2012/8/25, what was the consumption decrease rate from Year 2012 to 2013?",
+      "ambiguity": {
+        "user_layer": [
+          "指代省略"
+        ],
+        "business_layer": [
+          "概念歧义",
+          "逻辑歧义",
+          "维度约定"
+        ],
+        "data_layer": [
+          "路径歧义",
+          "复杂映射"
+        ],
+        "cross_layer": true
+      },
+      "has_ambiguity": true
+    },
+    {
+      "id": 944,
+      "difficulty": "challenging",
+      "question": "How much faster in percentage is the champion than the driver who finished the race last in the 2008 Australian Grand Prix?",
+      "ambiguity": {
+        "user_layer": [
+          "指代省略",
+          "时间模糊"
+        ],
+        "business_layer": [
+          "逻辑歧义",
+          "维度约定"
+        ],
+        "data_layer": [
+          "路径歧义",
+          "复杂映射"
+        ],
+        "cross_layer": true
+      },
+      "has_ambiguity": true
+    }
+  ]
+}
